@@ -1,37 +1,16 @@
 # CSE-231-Project-6
 
-  Print the welcome statements 
-  <br>
-    define functions
-    <br>
-       1. open file
-       <br>
-       2. read file
-       <br>
-       3. get characters by criterion
-       <br>
-       4. get characters by criteria
-       <br>
-       5. get region list
-       <br>
-       6. sort characters
-       <br>
-       7. display characters
-       <br>
-       8. get option
-       <br>
-    define main
-    <br>
-       call open file
-       <br>
-       call read file
-       <br>
-       call get option and loop until 4 is entered:
-       <br>
-           1. this option will be coded to get all available regions.
-           <br>
-           2. this option will filter characters by a certain criteria. 
-           <br>
-           3. this option will filter characters by element, weapon, and rarity.
-           <br>
-           4. this option breaks the loop and quits the program.
+This script offers a comprehensive directory for Genshin Impact characters. Users can interactively filter and view character data based on different criteria like element, weapon, rarity, and region. Features include:
+<br>
+**Data Reading:** Reads character data from a user-provided CSV file.
+Filtering Options:
+1. List all available regions.
+2. Filter characters based on a single criterion (element, weapon, rarity, region).
+3. Advanced filtering based on a combination of element, weapon, and rarity.
+<br>
+**Data Display:** Characters are displayed in a sorted manner, prioritizing rarity and alphabetical order.
+<br>
+**User Interaction:** The script operates through a menu-driven interface, allowing users to choose their desired operation.
+<br>
+Ideal for fans of Genshin Impact and those interested in data manipulation and display using Python. The script combines file handling, data sorting, and user input to provide a meaningful and interactive experience
+        
